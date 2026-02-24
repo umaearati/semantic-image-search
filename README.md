@@ -36,8 +36,11 @@ Streamlit interface for controlled testing. Supports manual evaluation of retrie
 
 ## LLM Optimisation
 
-Reduced token usage via conditional LLM invocation. Reduced API calls through query caching. Reduced inference latency by skipping rewrite for caption-style queries. Input length control to prevent excessive token cost.
+Reduced token usage via conditional LLM invocation.
+Reduced API calls through query caching.
+Reduced inference latency by skipping rewrite for caption-style queries. Input length control to prevent excessive token cost.
 
 ## Infrastructure Optimisation
 
-Reduced memory usage via on-disk vector storage. Reduced storage overhead using scalar quantisation (INT8). Minimal metadata storage to avoid large payload overhead.
+Reduced memory usage via on-disk vector storage.
+Reduced storage overhead using scalar quantisation (INT8). Minimal metadata storage to avoid large payload overhead.
